@@ -1,0 +1,69 @@
+🩺 Disease Prediction System
+
+An AI-powered Disease Prediction System that uses Machine Learning to predict possible diseases based on user symptoms. The project includes data preprocessing, model training, evaluation, saved models, and an interactive GUI for real-time predictions.
+
+
+🚀 Features
+
+- Disease prediction using Machine Learning
+- Symptom-based intelligent predictions
+- Data preprocessing and cleaning
+- Interactive GUI interface
+- Saved trained models for fast predictions
+- Model evaluation and visualization
+- Organized and scalable project structure
+
+🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Tkinter
+- Matplotlib
+- Joblib
+
+📂 Project Structure
+
+```bash
+Disease-Prediction-System/
+│
+├── data/                 # Dataset files
+├── models/               # Saved trained models
+├── graphs/               # Evaluation graphs
+├── src/                  # Source code files
+│   ├── clean.py
+│   ├── preprocessing.py
+│   ├── train_and_predict.py
+│   ├── predict.py
+│   ├── selector.py
+│   └── GUI.py
+│
+├── README.md
+└── requirements.txt
+
+
+## Installation
+
+```bash
+git clone https://github.com/ammarr-ahmed Disease-Prediction-using-random-forest.git
+cd Disease-Prediction-System
+pip install -r requirements.txt
+
+
+## ▶️ Run Instructions
+
+1. Run `src/1-clean.py` to clean the raw dataset.  
+2. Run `src/2-preprocessing.py` to preprocess and encode features.  
+3. Run `src/3-train_and_predict.py` to train and save the Random Forest model.  
+4. Run `src/4-selector.py` to select symptoms.  
+5. Run `src/5-predict.py` to generate predictions using the trained model.  
+6. Run `src/6-GUI.py` to launch the interface for interactive disease prediction.
+
+
+
+![alt text](image.png)
+
+
+## 👨‍💻 Author
+Developed by [Muhammad Ammar Ahmad](https://github.com/ammarr-ahmed)
